@@ -1,0 +1,63 @@
+body {
+	 background : url(../img/Background.jpg);
+	 background-attachment: fixed;
+     background-repeat : no-repeat;
+	 background-size : 100% 100%;
+}
+
+.container{
+	margin: auto;
+	margin-top : 60px;
+	height : 515px;
+	width : 400px;
+	border-radius : 10px;
+	background-color : rgba(255,255,255,0.7);
+}
+
+.logo{
+	padding-top : 35px;
+}
+
+.logotext{
+	padding-top : 10px;
+	padding-bottom : 10px;
+}
+
+input[type=text]{
+	border : 2px solid #cccccc;
+	border-radius : 4px;
+	margin-top : 5px;
+	margin-bottom :5px ;
+	width: 75%;
+	height : 45px;
+	cursor :pointer;
+	text-align : center;
+	font-family:Arial, Helvetica;
+	font-size:15px;
+}
+
+input[type=password]{
+	border : 2px solid #cccccc;
+	border-radius : 4px;
+	margin : 5px;
+	width: 75%;
+	height : 45px;
+	cursor :pointer;
+	text-align : center;
+	font-family:Arial, Helvetica;
+	font-size:15px;
+}
+
+input[type=submit]{
+	border-radius : 4px;
+	margin-top : 20px;
+	width: 75%;
+	height : 45px;
+	background-color : #2991f2;
+	color : white;
+	border: none;
+	cursor :pointer;
+	font-family:"Comic Sans MS";
+	font-size:15px;
+	font-weight:bold;
+}
